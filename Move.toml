@@ -1,0 +1,10 @@
+[package]
+name = "simple_fund"
+version = "0.0.1"
+
+[dependencies]
+#Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+CetusClmm = { git = "https://github.com/CetusProtocol/cetus-clmm-interface.git", subdir = "sui/clmmpool", rev = "testnet-sui-v1.1.0" }
+[addresses]
+simple_fund = "0x0"
+cetus_clmm = "0x0868b71c0cba55bf0faf6c40df8c179c67a4d0ba0e79965b68b3d72d7dfbf666"
